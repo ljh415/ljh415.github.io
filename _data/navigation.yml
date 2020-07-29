@@ -3,7 +3,7 @@ main:
   - title: "About"
     url: /about/
   - title: "Machine Learning"
-    url: /
+    url: /machinelearning/
   - title: "이론공부"
     url: /
 
