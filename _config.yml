@@ -101,10 +101,10 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:ljh415@gmail.com"
+      url: "mailto:ljh415@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://blog.naver.com/ab415"
+      url: "https://blog.naver.com/ab415"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -113,10 +113,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/ljh415"
+      url: "https://github.com/ljh415"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/ljh415"
+      url: "https://instagram.com/ljh415"
 
 # Site Footer
 footer:
