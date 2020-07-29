@@ -1,8 +1,8 @@
-- slug: design
-  name: Design
+- slug: algorithm
+  name: Algorithm
 
-- slug: tools
-  name: Tools
+- slug: raspberry-pi
+  name: Raspberry-Pi
 
-- slug: productivity
-  name: Productivity
+- slug: machine learning
+  name: Machine Learning
