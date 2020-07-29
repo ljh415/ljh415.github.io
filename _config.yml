@@ -292,3 +292,10 @@ defaults:
       sidebar:
         nav: "docs"
      
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layouts: single
+      author_profile: true
