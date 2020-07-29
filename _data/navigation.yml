@@ -1,7 +1,11 @@
 # main links
 main:
   - title: "About"
-    url : /about/
+    url: /about/
+  - title: "Machine Learning"
+    url: /
+  - title: "이론공부"
+    url: /
 
 # sidebar navigation list sample
 docs:
