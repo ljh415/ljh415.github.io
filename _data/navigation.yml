@@ -2,8 +2,6 @@
 main:
   - title: "About"
     url : /about/
-  - title: "Machine Learning"
-    url : /machine-learning/
 
 # sidebar navigation list sample
 docs:
