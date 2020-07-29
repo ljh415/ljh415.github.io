@@ -1,5 +1,5 @@
 ---
-layouy: archive
+layout: archive
 permaling: /machine-learning/
 title: "Machine learning Posts by Tags"
 header:
