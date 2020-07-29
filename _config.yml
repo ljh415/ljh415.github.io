@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Lee Jae Ho"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/dog.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "github 블로그 어려워요"
   location         : "Seoul, Korea"
   email            : "ljh415@gmail.com"
