@@ -1,5 +1,5 @@
 # Site settings
-title: Daktilo
+title: ljh415
 description: >
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -11,7 +11,7 @@ url: "http://hitchhiker.ma" # the base hostname & protocol for your site
 author:
   fullname: Motaquillah Maddane
   googleplus: https://www.google.com/+MotaquillahMaddane
-  github: kronik3r
+  github: ljh415
   twitter: electrik_frog
   # disqus: your_disqus_forum_shortname
 
