@@ -1,7 +1,7 @@
- ---
- title: "About"
- permalink: /about/
- header:
+---
+title: "About"
+permalink: /about/
+header:
     image: "/images/dog.jpg"
 ---
 

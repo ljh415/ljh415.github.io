@@ -2,6 +2,7 @@
 layout: archive
 permaling: /machine-learning/
 title: "Machine learning Posts by Tags"
+author_profile: true
 header:
     image: "/images/dog.jpg"
 ---
