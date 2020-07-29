@@ -5,14 +5,14 @@ description: >
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://blog.naver.com/ab415" # the base hostname & protocol for your site
+baseurl: "https://blog.naver.com/ab415" # the subpath of your site, e.g. /blog/
+url: "http://hitchhiker.ma" # the base hostname & protocol for your site
 
 author:
   fullname: Lee Jae Ho
   googleplus: https://www.google.com/+MotaquillahMaddane
   github: ljh415
-  twitter: 
+  # twitter:  
   # disqus: your_disqus_forum_shortname
 
 # google_analytics: 'UA-XXXXXXXX-X'
