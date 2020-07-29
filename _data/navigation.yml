@@ -6,6 +6,8 @@ main:
     url: /machinelearning/
   - title: "이론공부"
     url: /
+  - title: "archive-layout-with-content"
+    url: /archive-layout-with-content/
 
 # sidebar navigation list sample
 docs:
