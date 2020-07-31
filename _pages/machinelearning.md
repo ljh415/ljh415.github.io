@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: categories
 title: "Machine Learning"
 permalink: /machinelearning/
 header:

@@ -9,7 +9,7 @@ categories:
   - Machine Learning
 tags:
   - cs231n
-
+comments: True
 ---
 
 
