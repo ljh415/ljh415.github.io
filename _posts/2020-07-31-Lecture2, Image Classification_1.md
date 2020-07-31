@@ -1,3 +1,19 @@
+---
+
+layout: single
+title:  "Lecture2, Image Classification_1"
+header:
+  teaser: ""
+categories: 
+
+  - Machine Learning
+tags:
+  - cs231n
+
+---
+
+
+
 # Lecture 2 , Image Classification_1
 
 '이 포스팅의 슬라이드는 cs231n 강의 슬라이드에서 캡쳐했습니다.`
@@ -6,9 +22,9 @@
 
 ## 자료
 
-[https://www.youtube.com/watch?v=OoUX-nOEjG0&t=1750s](https://www.youtube.com/watch?v=OoUX-nOEjG0&t=1750s)
+[강의영상](https://www.youtube.com/watch?v=OoUX-nOEjG0&t=1750s)
 
-[](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture2.pdf)
+[강의자료](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture2.pdf)
 
 ---
 
@@ -33,9 +49,9 @@ Computer Vision에서 가장 중요한 일은 어떠한 사진을 입력을 받�
 
 (이때 0은 흰색, 255는 검은색이다.)
 
-![Lecture%202%20,%20Image%20Classification_1%20e920f0f38a1c4f7887900ba44fa9a116/Untitled.png](Lecture%202%20,%20Image%20Classification_1%20e920f0f38a1c4f7887900ba44fa9a116/Untitled.png)
+![../assets/images/cs231_2_1/01.png](../assets/images/cs231_2_1/01.png)
 
-![Lecture%202%20,%20Image%20Classification_1%20e920f0f38a1c4f7887900ba44fa9a116/Untitled%201.png](Lecture%202%20,%20Image%20Classification_1%20e920f0f38a1c4f7887900ba44fa9a116/Untitled%201.png)
+![../assets/images/cs231_2_1/02.png](../assets/images/cs231_2_1/02.png)
 
 > 고양이가 숫자로 변했다.
 
@@ -50,7 +66,7 @@ Computer Vision에서 가장 중요한 일은 어떠한 사진을 입력을 받�
 
 다음으로는 현재 Computer Vision에서 어려운 부분들을 보여주고 있다.
 
-![Lecture%202%20,%20Image%20Classification_1%20e920f0f38a1c4f7887900ba44fa9a116/Screenshot_from_2020-07-31_16-16-10.png](Lecture%202%20,%20Image%20Classification_1%20e920f0f38a1c4f7887900ba44fa9a116/Screenshot_from_2020-07-31_16-16-10.png)
+![../assets/images/cs231_2_1/03.png](../assets/images/cs231_2_1/03.png)
 
 첫 번째로 ***시점***에 관한 문제점이다.
 
@@ -67,7 +83,7 @@ Computer Vision에서 가장 중요한 일은 어떠한 사진을 입력을 받�
 
 그것이 바로 다음 슬라이드에 나온다.
 
-![Lecture%202%20,%20Image%20Classification_1%20e920f0f38a1c4f7887900ba44fa9a116/Screenshot_from_2020-07-31_16-28-25.png](Lecture%202%20,%20Image%20Classification_1%20e920f0f38a1c4f7887900ba44fa9a116/Screenshot_from_2020-07-31_16-28-25.png)
+![../assets/images/cs231_2_1/04.png](../assets/images/cs231_2_1/04.png)
 
 사진들은 모두 고양이이다. 하지만 빛이 어느 방향에서 오는지, 빛의 세기에 따라서 컴퓨터가 보기에는 전혀 고양이라고 알지 못할 것이다. ~~아마도~~
 
@@ -79,26 +95,26 @@ Computer Vision에서 가장 중요한 일은 어떠한 사진을 입력을 받�
 
 > [고양이 액체설](https://www.google.com/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%EC%95%A1%EC%A0%9C%EC%84%A4&oq=%EA%B3%A0%EC%96%91%EC%9D%B4+%EC%95%A1%EC%A0%9C%EC%84%A4&aqs=chrome..69i57j33.3854j0j7&sourceid=chrome&ie=UTF-8)
 
-![Lecture%202%20,%20Image%20Classification_1%20e920f0f38a1c4f7887900ba44fa9a116/Screenshot_from_2020-07-31_16-40-31.png](Lecture%202%20,%20Image%20Classification_1%20e920f0f38a1c4f7887900ba44fa9a116/Screenshot_from_2020-07-31_16-40-31.png)
+![../assets/images/cs231_2_1/05.png](../assets/images/cs231_2_1/05.png)
 
 컴퓨터뿐만 아니라 사람이 봐도 고양이가 맞나 싶을 정도로 고양이는 다양한 포즈로 현생을 살아가고 있다. 
 이러한 고양이들까지도 완벽하게 인식을 할 수 있다면, 그것은 정말 강력한 알고리즘일 것이다.
 
 다음 슬라이드를 확인해본다.
 
-![Lecture%202%20,%20Image%20Classification_1%20e920f0f38a1c4f7887900ba44fa9a116/Screenshot_from_2020-07-31_16-43-32.png](Lecture%202%20,%20Image%20Classification_1%20e920f0f38a1c4f7887900ba44fa9a116/Screenshot_from_2020-07-31_16-43-32.png)
+![../assets/images/cs231_2_1/06.png](../assets/images/cs231_2_1/06.png)
 
 ***가려짐(Occlusion)*** 또한 문제가 될 수 있다. 어딘가에 숨어있거나, 얼굴만 보일 경우... 저런 경우처럼 고양이가 가려져 있는 경우 컴퓨터가 '고양이'를 찾기는 더더욱 힘들어 질 것이다.
 
 그 외에도 고양이가 ***배경과 비슷할 경우***도 있을 것이고
 
-![Lecture%202%20,%20Image%20Classification_1%20e920f0f38a1c4f7887900ba44fa9a116/Untitled%202.png](Lecture%202%20,%20Image%20Classification_1%20e920f0f38a1c4f7887900ba44fa9a116/Untitled%202.png)
+![../assets/images/cs231_2_1/07.png](../assets/images/cs231_2_1/07.png)
 
-![Lecture%202%20,%20Image%20Classification_1%20e920f0f38a1c4f7887900ba44fa9a116/Untitled%203.png](Lecture%202%20,%20Image%20Classification_1%20e920f0f38a1c4f7887900ba44fa9a116/Untitled%203.png)
+![../assets/images/cs231_2_1/08.png](../assets/images/cs231_2_1/08.png)
 
 같은 고양이이지만 고양이마다 '모양', '크기', '색'과 같은 것들이 모두 다를 것이다.
 
-![Lecture%202%20,%20Image%20Classification_1%20e920f0f38a1c4f7887900ba44fa9a116/Untitled%204.png](Lecture%202%20,%20Image%20Classification_1%20e920f0f38a1c4f7887900ba44fa9a116/Untitled%204.png)
+![../assets/images/cs231_2_1/09.png](../assets/images/cs231_2_1/09.png)
 
 위 사진처럼 ***하나의 클래스 안에도 다양성***이 존재한다.
 '고양이'라는 하나의 개념으로 이과 같은 다양한 모습들을 전부 소화해내야한다.
@@ -131,9 +147,9 @@ Input ⇒ Output
 
 ---
 
-![Lecture%202%20,%20Image%20Classification_1%20e920f0f38a1c4f7887900ba44fa9a116/Screenshot_from_2020-07-31_18-02-56.png](Lecture%202%20,%20Image%20Classification_1%20e920f0f38a1c4f7887900ba44fa9a116/Screenshot_from_2020-07-31_18-02-56.png)
+![../assets/images/cs231_2_1/10.png](../assets/images/cs231_2_1/10.png)
 
-![Lecture%202%20,%20Image%20Classification_1%20e920f0f38a1c4f7887900ba44fa9a116/Screenshot_from_2020-07-31_17-11-54.png](Lecture%202%20,%20Image%20Classification_1%20e920f0f38a1c4f7887900ba44fa9a116/Screenshot_from_2020-07-31_17-11-54.png)
+![../assets/images/cs231_2_1/11.png](../assets/images/cs231_2_1/11.png)
 
 고양이의 사진을 통해서 'Edge'들을 검출하고
 'Edge'들이 만나서 생기는 많은 'Corner'에 대한 정보를 찾아낸다.
