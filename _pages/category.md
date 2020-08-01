@@ -1,6 +1,6 @@
 ---
 layout: categories
-title: "Cagegory"
+title: "Category"
 permalink: /category/
 header:
     teaser: ""
