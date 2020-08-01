@@ -5,7 +5,7 @@ main:
   - title: "Machine Learning"
     url: /machinelearning/
   - title: "이론공부"
-    url: /
+    url: /category/
   - title: "archive-layout-with-content"
     url: /archive-layout-with-content/
 
