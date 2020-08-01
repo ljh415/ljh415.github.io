@@ -8,7 +8,9 @@ main:
     url: /category/
   - title: "archive-layout-with-content"
     url: /archive-layout-with-content/
-
+  - title: "test"
+    url: /test/
+    
 # sidebar navigation list sample
 docs:
   - title: "Parent Page A"

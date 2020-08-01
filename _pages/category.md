@@ -1,5 +1,5 @@
 ---
-layout: categories
+layout: category
 title: "Category"
 permalink: /category/
 header:
