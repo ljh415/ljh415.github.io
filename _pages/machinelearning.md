@@ -1,9 +1,9 @@
 ---
-layout: collection
+layout: single
 title: "Machine Learning"
 permalink: /machinelearning/
 header:
     teaser: ""
 ---
 
-이건 레이아웃이 collection
+이건 레이아웃이 single

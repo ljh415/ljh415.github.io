@@ -1,6 +1,6 @@
 ---
-layout: compress
-title: "Test"
+layout: tags
+title: "tags"
 permalink: /test/
 header:
     teaser: ""
