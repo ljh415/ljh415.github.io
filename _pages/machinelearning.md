@@ -1,5 +1,5 @@
 ---
-layout: categories
+layout: posts
 title: "Machine Learning"
 permalink: /machinelearning/
 header:
