@@ -1,6 +1,6 @@
 ---
-layout: archive-taxonomy
-title: "archive-taxonomy"
+layout: splash
+title: "splash"
 permalink: /test/
 header:
     teaser: ""
