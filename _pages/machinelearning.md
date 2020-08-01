@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: search
 title: "Machine Learning"
 permalink: /machinelearning/
 header:
     teaser: ""
 ---
 
-이건 레이아웃이 single
+이건 레이아웃이 search
