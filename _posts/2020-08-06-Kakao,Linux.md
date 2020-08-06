@@ -1,13 +1,13 @@
 ---
 
 layout: single
-title:  "리눅스(우분투), 카카오톡, 성공적"
+title:  "Linux, KakaoTalk, yeees..."
 header:
   teaser: ""
 categories: 
-​	 - Linux
+  - Linux
 tags:
-    - KakaoTalk, Ubuntu, 18.04
+  - KakaoTalk, Ubuntu, 18.04
 comments: True
 
 ---
