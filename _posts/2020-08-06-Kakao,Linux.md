@@ -7,7 +7,7 @@ header:
 categories: 
   - Linux
 tags:
-  - KakaoTalk Ubuntu 18.04
+  - KakaoTalk,Ubuntu,18.04
 comments: True
 
 ---
