@@ -1,4 +1,25 @@
-# 리눅스(우분투), 카카오톡, 성공적
+---
+
+layout: single
+title:  "리눅스(우분투), 카카오톡, 성공적"
+header:
+  teaser: ""
+categories: 
+​	 - Linux
+tags:
+    - KakaoTalk, Ubuntu, 18.04
+comments: True
+
+---
+
+리눅스를 쓰면서 가장 불편한 점을 뽑아보자면 **카카오톡**을 못쓰는 점이 아닐까 싶다..
+
+무슨 말이 필요있을까
+
+그냥 순서만 따라해주세요.
+
+가시죠
+
 
 1. 나눔 폰트 설치
 
